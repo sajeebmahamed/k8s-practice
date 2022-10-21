@@ -15,8 +15,6 @@ spec:
       containers:
       - image: sajeebxn/products
         name: products
-
-
 ---
 
 apiVersion: v1
