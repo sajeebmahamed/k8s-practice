@@ -13,7 +13,7 @@ spec:
         app: products
     spec:
       containers:
-      - image: amourycodes/products
+      - image: sajeebxn/products
         name: products
 
 

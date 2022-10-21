@@ -1,16 +1,16 @@
-apiVersion: skaffold/v2beta4
+apiVersion: skaffold/v2alpha3
 kind: Config
 metadata:
   name: shop-skaffold
 build:
   artifacts:
-  - image: amourycodes/cart
+  - image: sajeebxn/cart
     context: cart
     sync:
       manual: 
       - src: "src/**/*.js"
         dest: "."
-  - image: amourycodes/products
+  - image: sajeebxn/products
     context: products
     sync:
       manual:

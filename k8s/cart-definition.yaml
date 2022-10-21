@@ -13,7 +13,7 @@ spec:
         app: cart
     spec:
       containers:
-      - image: amourycodes/cart
+      - image: sajeebxn/cart
         name: cart
 
 
